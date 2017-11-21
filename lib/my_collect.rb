@@ -7,6 +7,8 @@ def my_collect(array)
     while i < array.length do
       new_array << yield(array[i])
     end
+  end
+  new_array
 end
 
 my_collect(array) do |name|
