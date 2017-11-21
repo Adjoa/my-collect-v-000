@@ -1,5 +1,5 @@
 def my_collect(array)
-  if array = []
+  if array == []
     puts "This array is empty"
   else
     i = 0
